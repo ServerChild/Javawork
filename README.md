@@ -5,3 +5,4 @@
    -  JAVA(print/println
    -  주석처리
    -  println과 문자/숫자형
+   -  변수(variable)
