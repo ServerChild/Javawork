@@ -19,7 +19,7 @@ public class Ch01_promotion {
 		int inCh = c1;
 		System.out.println("영문 A의 유니코드는 " + inCh); // 유니코드 숫자가 나옴, A(65)
 		
-		char c2 = '수';
+		char c2 = '허';
 		int inCh1 = c2;
 		System.out.println("한글 '허'의 유니코드는 " + inCh1); // 유니코드 숫자가 나옴
 	}
