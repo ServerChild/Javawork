@@ -2,6 +2,7 @@ package casting03;
 
 public class Ch03_castingOp {
 	public static void main(String[] args) {
+		// 크기 순서(byte) : byte(1) < short(2) < char < int(4) < long(8) < float(4) < double(8)
 		// 연산식에서 자동타입 변환 : 크기가 큰 타입으로 자동 타입 변환
 		// int 이하(byte, char, short, int)의 타입 연산(+, -, *, %) -> int 형으로 변환
 		// 실수(double) 타입 연산 -> double 형으로 변환
