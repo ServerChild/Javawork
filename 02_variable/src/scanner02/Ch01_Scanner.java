@@ -3,7 +3,6 @@ package scanner02;
 import java.util.*;
 
 public class Ch01_Scanner {
-
 	public static void main(String[] args) {
 		// Scanner
 		Scanner sc = new Scanner(System.in);
@@ -33,6 +32,5 @@ public class Ch01_Scanner {
 		// 한 줄을 입력받을 때 : nextLine()
 		String address = sc.nextLine();
 		System.out.println("주소 : " + address);
-	}
-	
+	}	
 }

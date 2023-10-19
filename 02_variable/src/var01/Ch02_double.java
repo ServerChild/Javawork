@@ -1,7 +1,6 @@
 package var01;
 
 public class Ch02_double {
-
 	public static void main(String[] args) {
 		// 실수형
 		double dou1 = 12.345;
@@ -28,5 +27,4 @@ public class Ch02_double {
 		System.out.println(num1 + " % " + num2 + "의 나머지 = " + (num1 % num2));
 		
 	}
-
 }

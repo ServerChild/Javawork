@@ -1,7 +1,6 @@
 package print01;
 
 public class Ch01_print_println {
-
 	public static void main(String[] args) {
 		// 한 줄 주석
 		// - 주석은 컴파일하지 않음
@@ -27,5 +26,4 @@ public class Ch01_print_println {
 		System.out.print("줄바꿈 안함");
 		System.out.print("강의실 : 3강의실");
 	}
-
 }

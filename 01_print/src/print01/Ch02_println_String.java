@@ -1,7 +1,6 @@
 package print01;
 
 public class Ch02_println_String {
-
 	public static void main(String[] args) {
 		System.out.println("문자열 " + "두번째 문자열");
 		
@@ -17,5 +16,4 @@ public class Ch02_println_String {
 		// 뒷 숫자를 연산된 결과로 출력할 시에는 ()로 연산을 묶음
 		System.out.println(10 + 20 + "문자열" + (10 + 20));
 	}
-
 }

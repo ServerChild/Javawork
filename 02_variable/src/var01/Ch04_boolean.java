@@ -1,7 +1,6 @@
 package var01;
 
 public class Ch04_boolean {
-
 	public static void main(String[] args) {
 		// boolean 형 : true(참), false(거짓)
 		boolean bool1 = true;
@@ -16,5 +15,4 @@ public class Ch04_boolean {
 		boolean bool4 = num1 < num2;
 		System.out.println(bool4);
 	}
-
 }

@@ -1,7 +1,6 @@
 package var01;
 
 public class Ch05_String {
-
 	public static void main(String[] args) {
 		// String : 참조 자료형
 		// "" : 문자열
@@ -23,5 +22,4 @@ public class Ch05_String {
 		System.out.println("강의실 : \"3강의실\" \t 강좌명 : \"엘라스틱서치\"");
 		System.out.println("강의실 : 3강의실 \t \\ \t강좌명 : 엘라스틱서치");
 	}
-
 }

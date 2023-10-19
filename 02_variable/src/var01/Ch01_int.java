@@ -1,7 +1,6 @@
 package var01;
 
 public class Ch01_int {
-
 	public static void main(String[] args) {
 		/*
 		  	- 변수(Variable) : 하나의 값을 저장하기 위한 공간
@@ -42,5 +41,4 @@ public class Ch01_int {
 		int result4 = result3 * 10;
 		System.out.println("result3 * 10 = " + result4);
 	}
-	
 }

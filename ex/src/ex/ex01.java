@@ -4,7 +4,6 @@ package ex;
 import java.util.*;
 
 public class ex01 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -22,5 +21,4 @@ public class ex01 {
 		
 		System.out.println("키 " + cm + "cm인 " + age + "살 " + lm + " " + name + "님 반갑습니다." );
 	}
-
 }
