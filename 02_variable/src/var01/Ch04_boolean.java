@@ -2,7 +2,7 @@ package var01;
 
 public class Ch04_boolean {
 	public static void main(String[] args) {
-		// boolean 형 : true(참), false(거짓)
+		// 기본 자료형 : boolean 형(true(참), false(거짓))
 		boolean bool1 = true;
 		boolean bool2 = false;
 		System.out.println(bool1);

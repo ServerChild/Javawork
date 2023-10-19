@@ -2,7 +2,7 @@ package var01;
 
 public class Ch03_char {
 	public static void main(String[] args) {
-		// 문자형, char 은 유니코드를 사용
+		// 기본 자료형 : 문자형, char 은 유니코드를 사용
 		// '' : 글자 하나
 		char ch1 = 'a';
 		char ch2 = '허';

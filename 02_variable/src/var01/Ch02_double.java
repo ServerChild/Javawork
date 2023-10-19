@@ -2,7 +2,7 @@ package var01;
 
 public class Ch02_double {
 	public static void main(String[] args) {
-		// 실수형
+		// 기본 자료형 : 실수형
 		double dou1 = 12.345;
 		double dou2 = 35.456;
 		

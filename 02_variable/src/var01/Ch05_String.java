@@ -2,7 +2,7 @@ package var01;
 
 public class Ch05_String {
 	public static void main(String[] args) {
-		// String : 참조 자료형
+		// 참조 자료형 : String
 		// "" : 문자열
 		String str1 = "3강의실";
 		String str2 = "엘라스틱 서치 빅데이터";

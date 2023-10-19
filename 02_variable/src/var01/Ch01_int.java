@@ -7,7 +7,7 @@ public class Ch01_int {
 		  	- 상수(constant) : 한 번만 값을 저장할 수 있는 공간
 			- 리터럴(literal) : 그 자체로 값을 의미하는 것
 		 */
-		// 정수형
+		// 기본 자료형 : 정수형
 		int num1;
 		
 		num1 = 10;
