@@ -9,15 +9,15 @@ public class ex06 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		// 국어 점수
+		// 국어점수
 		System.out.print("국어 : ");
 		int kor = sc.nextInt();
 		
-		// 영어 점수
+		// 영어점수
 		System.out.print("영어 : ");
 		int eng = sc.nextInt();
 		
-		// 수학 점수
+		// 수학점수
 		System.out.print("수학 : ");
 		int mat = sc.nextInt();
 		
