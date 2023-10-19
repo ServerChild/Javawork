@@ -2,8 +2,8 @@ package var01;
 
 public class Ch03_char {
 	public static void main(String[] args) {
-		// 기본 자료형 : 문자형, char 은 유니코드를 사용
-		// '' : 글자 하나
+		// 기본 자료형 : 문자형, char는 유니코드를 사용
+		// '' : 문자 하나
 		char ch1 = 'a';
 		char ch2 = '허';
 		char ch3 = '*';
@@ -13,6 +13,9 @@ public class Ch03_char {
 		
 		char ch4 = 'A' + 1; // 아스키 코드 A(65)
 		System.out.println(ch4);
+		
+		char ch5 = 'A';
+		//char re = ch5 + 1 // 자동형변환 때문에 error
 		
 		System.out.println("-----------");
 		

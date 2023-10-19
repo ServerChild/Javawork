@@ -2,7 +2,8 @@ package var01;
 
 public class Ch02_double {
 	public static void main(String[] args) {
-		// 기본 자료형 : 실수형
+		// 기본 자료형 : 실수형(8byte)
+		// 소수점 12자리까지 정확
 		double dou1 = 12.345;
 		double dou2 = 35.456;
 		
