@@ -17,7 +17,6 @@ public class ex04 {
 		
 		System.out.println("첫 번째 문자 : " + str1);
 		System.out.println("두 번째 문자 : " + str2);
-		System.out.println("세 번째 문자 : " + str3);
-		
+		System.out.println("세 번째 문자 : " + str3);	
 	}
 }
