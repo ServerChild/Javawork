@@ -16,6 +16,7 @@ public class Ch05_String {
 		 	\t : 탭(tab)만큼 띄우기
 		 	\" : 쌍따옴표(") 출력
 		 	\\ : 역슬래시(\) 출력
+		 	%% : 퍼센트(%) 출력
 		*/
 		System.out.println("강의실 : 3강의실\n강좌명 : 엘라스틱서치");
 		System.out.println("강의실 : 3강의실\t강좌명 : 엘라스틱서치");
