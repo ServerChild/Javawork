@@ -15,11 +15,16 @@ public class ex09 {
 		int num2 = sc.nextInt();
 		
 		// 입력받은 두 정수 중에 큰 값과 작은 값을 구분
-		// 작은 값을 시작으로 큰 값까지 1씩 증가하여
-		// 작은 값부터 큰 값까지의 합계 구함
+		// num1이 num2보다 작을 때
 		if(num1 < num2) {
 			for(int i = num1; i <= num2;i++) {
-				System.out.println("?");
+				System.out.println();
+			}
+		}
+		// num2가 num1보다 작을 때
+		else if(num2 < num1) {
+			for(int i = num2; i <= num1;i++) {
+				System.out.println();
 			}
 		}
 	}
