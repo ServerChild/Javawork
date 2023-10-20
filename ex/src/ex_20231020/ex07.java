@@ -22,7 +22,7 @@ public class ex07 {
 		double avg = sum / 3.0;
 		
 		System.out.println("합계 : " + sum);
-		System.out.println("평균 : " + avg);
+		System.out.printf("평균 : %.1f\n",avg);
 		
 		// 각 점수가 40점 이상, 평균이 60점 이상일 때 = "합격", 아니면 "불합격"
 		String re = kor >= 40 && eng >= 40 && math >= 40 && avg >= 60 ? "합격" : "불합격";
