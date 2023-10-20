@@ -1,9 +1,9 @@
 // Q. 키보드로 문자 하나를 입력 받아 그 문자의 유니코드를 출력
-package ex;
+package ex_20231019;
 
 import java.util.Scanner;
 
-public class ex05 {
+public class ex02 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

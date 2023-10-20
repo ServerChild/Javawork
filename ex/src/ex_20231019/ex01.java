@@ -1,9 +1,9 @@
 // Q. 영어 문자열 값을 키보드로 입력받아 앞에 세 개를 출력
-package ex;
+package ex_20231019;
 
 import java.util.Scanner;
 
-public class ex04 {
+public class ex01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

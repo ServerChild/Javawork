@@ -1,5 +1,5 @@
 // Q. 키보드로 가로, 세로 값을 값을 실수형으로 입력 받아 사각형의 면적과 둘레를 계산하여 출력
-package ex;
+package ex_20231018;
 
 import java.util.Scanner;
 

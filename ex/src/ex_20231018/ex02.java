@@ -1,5 +1,5 @@
 // Q. 키보드로 정수 두 개를 입력 받아 두 수의 합, 차, 곱, 나누기 한 몫을 출력
-package ex;
+package ex_20231018;
 
 import java.util.Scanner;
 

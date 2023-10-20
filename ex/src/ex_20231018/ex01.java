@@ -1,5 +1,5 @@
 // Q. 이름, 성별, 나이, 키를 사용자로부터 입력받아 각각 변수를 담아 출력
-package ex;
+package ex_20231018;
 
 import java.util.*;
 
