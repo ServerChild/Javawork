@@ -21,5 +21,20 @@ public class Ch04_logical {
 		// || : 하나라도 참(true)면 참(true)
 		boolean re2 = num1 > num2 || num1 < num2;
 		System.out.println(re2); //true
+		
+		System.out.println("--------");
+		
+		// !(not) : 참(true)이면 거짓(false), 거짓(false)이면 참(true)
+		boolean b1 = num1 >= num2; 
+		System.out.println(!b1); // false
+		System.out.println(!!b1); // true
+		
+		System.out.println("--------");
+		
+		// A ~ Z : 65 ~ 90, a ~ z : 97 ~ 122
+		char ch1 = 'A';
+		System.out.println("ch1 : " + ch1);
+		System.out.println("ch1은 소문자인가? " + (ch1 >= 'a' && ch1 <= 'z'));
+		System.out.println("ch1은 대문자인가? " + (ch1 >= 'A' && ch1 <= 'Z'));
 	}
 }

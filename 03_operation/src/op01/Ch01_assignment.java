@@ -28,5 +28,10 @@ public class Ch01_assignment {
 		num1 = 10;
 		num1 %= 3; // num1 = num1 % 3
 		System.out.println("num1 % 3 = " + num1);
+		
+		// _ : 숫자 자리를 사람이 볼 때 편하게 하기 위해, 컴퓨터는 인식 x
+		int num2 = 3_000_000; // = 100,000,000
+		int num3 = 2_000;
+		System.out.println((long)(num2 * num3));
 	}
 }

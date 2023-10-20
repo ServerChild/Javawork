@@ -11,7 +11,7 @@ public class Ch02_casting {
 		System.out.println(b1);
 		
 		double d1 = 26.9988;
-		num1 = (int)d1; // double -> int
+		num1 = (int)d1; // double -> int : 소수점 이하는 버리고 정수만 출력
 		System.out.println(num1);
 	}
 }

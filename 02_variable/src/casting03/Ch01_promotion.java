@@ -9,19 +9,19 @@ public class Ch01_promotion {
 		byte b1 = 20;
 		short s1 = b1;
 		
-		int in1 = b1; // int
-		in1 = s1; // int
+		int in1 = b1; // byte -> int
+		in1 = s1; // short -> int
 		System.out.println(in1); 
 		
-		double d1 = in1; // double
+		double d1 = in1; // int -> double
 		System.out.println(d1);
 		
 		char c1 = 'A';
-		int inCh = c1;
+		int inCh = c1; // char -> int
 		System.out.println("영문 A의 유니코드는 " + inCh); // 유니코드 숫자가 나옴, A(65)
 		
 		char c2 = '허';
-		int inCh1 = c2;
+		int inCh1 = c2; // char -> int
 		System.out.println("한글 '허'의 유니코드는 " + inCh1); // 유니코드 숫자가 나옴
 	}
 }

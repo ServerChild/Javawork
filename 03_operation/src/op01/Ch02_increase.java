@@ -3,12 +3,12 @@ package op01;
 public class Ch02_increase {
 	public static void main(String[] args) {
 		// 증가, 감소 연산자
-		// ++ : 하나 증가
+		// ++ : 하나(1) 증가
 		int num1 = 10;
 		num1++;
 		System.out.println(num1);
 		
-		// -- : 하나 감소
+		// -- : 하나(1) 감소
 		num1 = 10;
 		num1--; // 9
 		num1--; // 8
@@ -19,8 +19,7 @@ public class Ch02_increase {
 		++num1;
 		--num1;
 		
-		
-		// 연산시 달라짐
+		// 연산 시에는 연산자가 붙은 위치에 결과가 따라 달라짐
 		int num2 = 10; // 11
 		int num3 = 10; // 11
 		// 연산자가 앞에 붙으면 자신부터 증가 or 감소함
@@ -47,6 +46,5 @@ public class Ch02_increase {
 		num3 = 10; // 9
 		result = --num2 + num3--; 
 		System.out.println(result); // 19
-		
 	}
 }
