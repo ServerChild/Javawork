@@ -9,10 +9,12 @@ public class ex10 {
 		
 		System.out.print("정수를 입력하세요 : ");
 		int num = sc.nextInt();
+		String str = "";
 		
 		if(num > 0) {
-			for(int i = num; i <= num; i++) {
-				System.out.println("?");
+			for(int i = 0; i < num; i++) {
+				str += "*";
+				System.out.println(str);
 			}
 		} else
 			System.out.println("양수가 아닙니다.");

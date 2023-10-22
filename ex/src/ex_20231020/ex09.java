@@ -14,20 +14,23 @@ public class ex09 {
 		System.out.print("정수를 입력하세요 : ");
 		int num2 = sc.nextInt();
 		
+		int str = 0;
+		
 		// 입력받은 두 정수 중에 큰 값과 작은 값을 구분
 		// num1이 num2보다 작을 때
 		if(num1 < num2) {
 			for(int i = num1; i <= num2;i++) {
 				//num1부터 num2까지 1씩 증가한 값을 합해서 출력
-				System.out.println();
+				str += i;
 			}
 		}
 		// num2가 num1보다 작을 때
 		else if(num2 < num1) {
 			for(int i = num2; i <= num1;i++) {
 				//num2부터 num1까지 1씩 증가한 값을 합해서 출력
-				System.out.println();
+				str += i;
 			}
 		}
+		System.out.println(str);
 	}
 }
