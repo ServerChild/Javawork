@@ -8,8 +8,10 @@ public class ex06 {
 		
 		for(int i = 0; i < arr.length; i++) {
 			arr[i] = i * 3;
-			
-			System.out.print(arr[i] + " ");
+			if(i == 4)
+				System.out.println(arr[i]);
+			else
+				System.out.print(arr[i] + ", ");
 		}
 	}
 }
