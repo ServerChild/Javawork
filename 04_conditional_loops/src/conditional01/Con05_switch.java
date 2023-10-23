@@ -94,6 +94,7 @@ public class Con05_switch {
 		// 숫자 두개와 연산자 입력받음
 		System.out.print("연산자(+, -, *, /, %) : ");
 		String op = sc.next(); // 연산자
+		// char op = sc.next().charAt(0) -> 연산자를 문자형으로 받을 때
 		
 		System.out.print("숫자1 : ");
 		int num1 = sc.nextInt(); // 숫자 1
@@ -125,6 +126,5 @@ public class Con05_switch {
 			default:
 				System.out.println("end");
 		}
-		
 	}
 }
