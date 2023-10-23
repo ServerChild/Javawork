@@ -13,22 +13,38 @@ public class ex05 {
 		System.out.print("두 번째 숫자 : ");
 		int num2 = sc.nextInt();
 		
-		String str = "";
+		//String str = ""; (주석 = 방법 1)
 		
 		if(num1 >= 1 && num2 >= 1) {
 			if(num1 > num2) {
 				for(int i = num2; i <= num1; i++) {
-					str += i;
+					//str += i; (방법 1)
+					System.out.print(i + ", ");
 				}
 			}
 			else if(num1 < num2) {
 				for(int i = num1; i <= num2; i++) {
-					str += i;
+					//str += i; (방법 1)
+					System.out.print(i + ", ");
 				}
 			}
-			System.out.println(str);
+			//System.out.println(str); (방법 1)
 		}
 		else if(num1 < 1 || num2 < 1)
 			System.out.println("1 이상의 숫자를 입력해주세요.");
 	}
 }
+
+/*
+ // num1은 작은수 num2 큰수 넣을 때(자리바꿈)
+ 	 if(num1 > num2) {
+ 	 	int tmp = num1;
+ 	 	num1 = num2;
+ 	 	num2 = tmp;
+ 	 }
+ 	 
+ 	 for(int i = num1;i <= num2; i++) {
+ 	 	System.out.print(i + ", ")
+ 	 }
+ 	 
+*/ 
