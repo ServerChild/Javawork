@@ -1,5 +1,7 @@
 package loops02;
 
+import java.util.Scanner;
+
 public class Lop05_Math {
 	public static void main(String[] args) {
 		// Math(수학에 관련된 클래스)
@@ -36,5 +38,26 @@ public class Lop05_Math {
 		
 		double rand4 = Math.random() * 100; // 0 ~ 99.9999999999
 		System.out.println(rand4);
+		System.out.println();
+		
+		// 주사위의 숫자 맞추기 게임
+		// 랜덤으로 주사위 숫자 만들기
+		// 사용자로부터 숫자 입력받아서
+		// 숫자 맞추면 "축하합니다. 맞췄습니다." 하고 끝냄, 못 맞추면 계속하기
+		
+		// 랜덤으로 1 ~ 6까지의 숫자 추출
+		int com = (int)(Math.random() * 6) + 1;
+		int user = 0;
+		do {
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.print("주사위의 숫자를 맞춰보세요. : ");
+			user = sc.nextInt();
+			
+			if(com == user) 
+				System.out.println("축하합니다. 맞췄습니다.");
+			else 
+				System.out.println("틀렸습니다. 다시 입력하세요.");
+		} while(com != user);
 	}
 }
