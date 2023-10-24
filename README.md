@@ -28,4 +28,4 @@
 
 #### 2023.10.24
    - 배열(Array)(char, String, boolean, double)
-   - 2차원 배열
+   - 2차원 배열, 배열 copy
