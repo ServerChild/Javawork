@@ -7,7 +7,7 @@ public class Array_int01 {
 		//		- 형식 : 자료형[] 변수명 = new 자료형[갯수]
 		//				자료형 변수명[] = new 자료형[갯수]
 		
-		// 저장 공간을 확보만 하고 값은 나중에
+		// 저장 공간을 확보만 하고 값은 나중에(갯수를 반드시 적어줘야 함)
 		int arrayInt[] = new int[10];
 		int[] arrayInt2 = new int[5];
 		
