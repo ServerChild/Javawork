@@ -3,7 +3,7 @@ package ex_20231020;
 
 import java.util.Scanner;
 
-public class ex08 {
+public class Op_Ex08 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

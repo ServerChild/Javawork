@@ -3,7 +3,7 @@ package ex_20231023;
 
 import java.util.Scanner;
 
-public class ex02 {
+public class If_Eles_Ex02 {
 	public static void main(String[] args) {
 		// 사용자 입력 받음
 		Scanner sc = new Scanner(System.in);

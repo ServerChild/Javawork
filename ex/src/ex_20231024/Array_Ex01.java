@@ -1,8 +1,9 @@
-package array01;
+package ex_20231024;
 
-public class Array_Ex03 {
+public class Array_Ex01 {
 	public static void main(String[] args) {
 		int score[] = {100, 91, 58, 85, 77};
+		// 배열(Array) - 1차원
 		// 예시 1. 총점, 평균 구하기
 		// 점수 합계
 		int sum = 0;

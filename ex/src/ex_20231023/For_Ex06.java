@@ -1,7 +1,7 @@
 // Q. 길이가 5인 배열에 값을 for문으로 {0, 3, 6 ,9 ,12}를 넣고 합계를 구하여 출력 
 package ex_20231023;
 
-public class ex06 {
+public class For_Ex06 {
 	public static void main(String[] args) {
 		// 배열 선언
 		int arr[] = new int[5];

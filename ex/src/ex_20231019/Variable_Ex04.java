@@ -1,7 +1,7 @@
 // Q. 선언 및 초기화된 5개의 변수를 가지고 알맞은 사칙연산(+, -, *, /)과 형변환을 이용하여 주석에 적힌 값과 같은 값이 나오도록 코드를 작성
 package ex_20231019;
 
-public class ex04 {
+public class Variable_Ex04 {
 	public static void main(String[] args) {
 		// 변수 선언
 		int iNum1 = 10;

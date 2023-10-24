@@ -1,7 +1,7 @@
 // Q. 1 ~ 100까지 3의 배수의 합 구하기
 package ex_20231023;
 
-public class ex01 {
+public class For_Ex01 {
 	public static void main(String[] args) {
 		// 변수 선언(합계)
 		int sum = 0;

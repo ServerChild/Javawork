@@ -6,7 +6,7 @@ package ex_20231023;
 
 import java.util.Scanner;
 
-public class ex03 {
+public class Do_While_Ex03 {
 	public static void main(String[] args) {
 		// 1 ~ 100까지의 숫자 랜덤 추출
 		int com = (int)(Math.random() * 100) + 1;

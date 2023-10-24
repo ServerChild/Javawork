@@ -3,7 +3,7 @@ package ex_20231023;
 
 import java.util.Scanner;
 
-public class ex04 {
+public class If_Eles_Ex04 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
