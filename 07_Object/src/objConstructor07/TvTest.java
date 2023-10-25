@@ -38,5 +38,14 @@ public class TvTest {
 				
 		// tv1 끄기
 		tv1.on();
+		
+		System.out.println();
+		
+		tv2.on();
+		
+		System.out.println("2번 TV 현재 채널 : " + tv2.chChage());
+		System.out.println("2번 TV 현재 채널 : " + tv2.chChage());
+		
+		tv2.on();
 	}
 }
