@@ -29,3 +29,7 @@
 #### 2023.10.24
    - 배열(Array)(char, String, boolean, double)
    - 2차원 배열, 배열 copy
+
+#### 2023.10.25
+   - for 문 여러 변수 사용(+ 여러 변수 선언)
+   - 객체(Object) : 클래스(Class) - 객체 생성, 필드(Field), 메소드(Method), 생성자(Constructor)
