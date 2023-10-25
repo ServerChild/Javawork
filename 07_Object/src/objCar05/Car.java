@@ -17,7 +17,7 @@ public class Car {
 		if(run)
 			System.out.println("출발합니다. 부릉-");
 		else
-			System.out.println("운행을 멈춥니다. 끼익-");
+			System.out.println("멈춥니다. 끼익-");
 	}
 		
 	/*
