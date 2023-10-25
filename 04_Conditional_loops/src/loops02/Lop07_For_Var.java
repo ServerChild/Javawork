@@ -1,6 +1,6 @@
 package loops02;
 
-public class Lop07_for_var {
+public class Lop07_For_Var {
 	public static void main(String[] args) {
 		// 자료형이 같은 여러 변수 선언(같은 자료형일때만 가능)
 		int num, num1, num2;

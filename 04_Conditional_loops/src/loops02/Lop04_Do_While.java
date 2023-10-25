@@ -2,7 +2,7 @@ package loops02;
 
 import java.util.Scanner;
 
-public class Lop04_do_while {
+public class Lop04_Do_While {
 	public static void main(String[] args) {
 		// do-while 문 : 블록 내부 실행문을 우선 실행하고 그 결과에 따라 반복 실행 여부 결정(무한 반복 주의)
 		/*

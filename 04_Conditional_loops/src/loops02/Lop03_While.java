@@ -2,7 +2,7 @@ package loops02;
 
 import java.util.Scanner;
 
-public class Lop03_while {
+public class Lop03_While {
 	public static void main(String[] args) {
 		// while 문 : 조건식에 따라 반복 여부 결정(무한 반복 주의)
 		/*

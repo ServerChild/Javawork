@@ -1,6 +1,6 @@
 package var01;
 
-public class Ch04_boolean {
+public class Ch04_Boolean {
 	public static void main(String[] args) {
 		// 기본 자료형 : boolean 형(true(참), false(거짓))
 		boolean bool1 = true;

@@ -2,7 +2,7 @@ package op01;
 
 import java.util.Scanner;
 
-public class Ch05_threeOp {
+public class Ch05_ThreeOp {
 	public static void main(String[] args) {
 		// 삼항 연산자 : 조건식 ? 조건이 참 일때 실행 : 조건이 거짓일 때 실행
 		int num1 = 10;

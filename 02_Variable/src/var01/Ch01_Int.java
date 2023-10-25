@@ -1,6 +1,6 @@
 package var01;
 
-public class Ch01_int {
+public class Ch01_Int {
 	public static void main(String[] args) {
 		/*
 		  	- 변수(Variable) : 하나의 값을 저장하기 위한 공간

@@ -1,6 +1,6 @@
 package print02;
 
-public class Ch01_printf {
+public class Ch01_Printf {
 	public static void main(String[] args) {
 		// 형식화된 출력 : printf, format
 		// %b(boolean), %d(10진수), %o(8진수), %x/%X(16진수), %f(실수형), %c(문자), %s(문자열)

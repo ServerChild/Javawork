@@ -1,6 +1,6 @@
 package op01;
 
-public class Ch03_compare {
+public class Ch03_Compare {
 	public static void main(String[] args) {
 		// 비교 연산자 : >(크다), <(작다), ==(같음), !=(같지 않음)
 		int num1 = 10;

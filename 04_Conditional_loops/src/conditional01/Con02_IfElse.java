@@ -2,7 +2,7 @@ package conditional01;
 
 import java.util.Scanner;
 
-public class Con02_ifelse {
+public class Con02_IfElse {
 	public static void main(String[] args) {
 		//if else 문
 		/*

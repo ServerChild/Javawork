@@ -1,6 +1,6 @@
 package print02;
 
-public class Ch02_printf_digit {
+public class Ch02_Printf_Digit {
 	public static void main(String[] args) {
 		// 자릿수 맞춤(전체 자릿 수 지정, 비어있는 공간 = 스페이스)
 		System.out.printf("%7d\n", 32000);

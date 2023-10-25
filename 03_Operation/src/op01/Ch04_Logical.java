@@ -1,6 +1,6 @@
 package op01;
 
-public class Ch04_logical {
+public class Ch04_Logical {
 	public static void main(String[] args) {
 		// 논리합과 논리곱
 		/*  0(거짓) 1(참)

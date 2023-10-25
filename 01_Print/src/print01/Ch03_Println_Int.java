@@ -1,6 +1,6 @@
 package print01;
 
-public class Ch03_println_int {
+public class Ch03_Println_Int {
 	public static void main(String[] args) {
 		// 문자열일 때 +, - 로 연산하고 싶으면 반드시 괄호를 넣어야 함
 		

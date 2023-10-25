@@ -1,6 +1,6 @@
 package loops02;
 
-public class Lop01_for {
+public class Lop01_For {
 	public static void main(String[] args) {
 		// 반복문 : 어떤 작업을 반복적으로 실행하고 싶을 때 사용
 		// for 문 : 주어진 횟수만큼 반복하고 싶을 경우

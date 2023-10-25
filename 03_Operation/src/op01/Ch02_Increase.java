@@ -1,6 +1,6 @@
 package op01;
 
-public class Ch02_increase {
+public class Ch02_Increase {
 	public static void main(String[] args) {
 		// 증가, 감소 연산자
 		// ++ : 하나(1) 증가

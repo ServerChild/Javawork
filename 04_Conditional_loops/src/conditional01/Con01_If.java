@@ -1,6 +1,6 @@
 package conditional01;
 
-public class Con01_if {
+public class Con01_If {
 	public static void main(String[] args) {
 		// 조건문(if)
 		// 경우의 수 범위가 넓을 경우 사용

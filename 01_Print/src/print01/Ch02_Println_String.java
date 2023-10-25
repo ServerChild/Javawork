@@ -1,6 +1,6 @@
 package print01;
 
-public class Ch02_println_String {
+public class Ch02_Println_String {
 	public static void main(String[] args) {
 		System.out.println("문자열 " + "두번째 문자열");
 		

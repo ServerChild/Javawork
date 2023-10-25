@@ -2,7 +2,7 @@ package conditional01;
 
 import java.util.Scanner;
 
-public class Con03_multi_if {
+public class Con03_Multi_If {
 	public static void main(String[] args) {
 		// 다중 if 문 
 		/* 

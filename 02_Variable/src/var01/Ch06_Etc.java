@@ -1,6 +1,6 @@
 package var01;
 
-public class Ch06_etc {
+public class Ch06_Etc {
 	public static void main(String[] args) {
 		// long(정수형), float(실수형)
 		int int1 = 1111111111;

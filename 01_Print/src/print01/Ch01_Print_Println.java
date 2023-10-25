@@ -1,6 +1,6 @@
 package print01;
 
-public class Ch01_print_println {
+public class Ch01_Print_Println {
 	public static void main(String[] args) {
 		// 한 줄 주석
 		// - 주석은 컴파일하지 않음

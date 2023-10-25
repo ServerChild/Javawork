@@ -1,6 +1,6 @@
 package loops02;
 
-public class Lop06_continue {
+public class Lop06_Continue {
 	public static void main(String[] args) {
 		// break : 반복문을 빠져나올 때
 		// continue : continue 하위의 실행문을 실행하지 않고 반복문을 다시 실행

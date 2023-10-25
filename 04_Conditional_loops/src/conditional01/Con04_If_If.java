@@ -1,6 +1,6 @@
 package conditional01;
 
-public class Con04_if_if {
+public class Con04_If_If {
 	public static void main(String[] args) {
 		// 중첩 if 문 : if문 안에 if문이 들어감, else문에서도 중첩 사용 가능
 		int num1 = 0;

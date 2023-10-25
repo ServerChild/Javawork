@@ -1,6 +1,6 @@
 package loops02;
 
-public class Lop02_for_for {
+public class Lop02_For_For {
 	public static void main(String[] args) {
 		// 중첩 for 문
 		// 지역변수는 for 문이 끝나면 stack 에서 사라지기 때문에 사용할 수 없음

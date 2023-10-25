@@ -1,6 +1,6 @@
 package casting03;
 
-public class Ch01_promotion {
+public class Ch01_Promotion {
 	public static void main(String[] args) {
 		// 타입 변환 : 값의 타입을 다른 타입으로 변환하는 것
 		// 크기 순서(byte) : byte(1) < short(2) < char < int(4) < long(8) < float(4) < double(8)

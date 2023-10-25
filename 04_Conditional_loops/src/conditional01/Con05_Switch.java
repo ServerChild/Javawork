@@ -2,7 +2,7 @@ package conditional01;
 
 import java.util.Scanner;
 
-public class Con05_switch {
+public class Con05_Switch {
 	public static void main(String[] args) {
 		// switch 문 : 변수가 어떤 값을 갖는가에 따라 실행문 선택
 		// 경우의 수가 2 ~ 5 가지일 경우 사용

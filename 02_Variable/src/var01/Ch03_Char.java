@@ -1,6 +1,6 @@
 package var01;
 
-public class Ch03_char {
+public class Ch03_Char {
 	public static void main(String[] args) {
 		// 기본 자료형 : 문자형, char는 유니코드를 사용
 		// '' : 문자 하나

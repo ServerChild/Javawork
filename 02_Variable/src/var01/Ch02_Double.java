@@ -1,6 +1,6 @@
 package var01;
 
-public class Ch02_double {
+public class Ch02_Double {
 	public static void main(String[] args) {
 		// 기본 자료형 : 실수형(8byte)
 		// 소수점 12자리까지 정확

@@ -1,6 +1,6 @@
 package op01;
 
-public class Ch01_assignment {
+public class Ch01_Assignment {
 	public static void main(String[] args) {
 		// 대입 연산자
 		int num1 = 10;
