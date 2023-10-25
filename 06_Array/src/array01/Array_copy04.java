@@ -21,7 +21,7 @@ public class Array_copy04 {
 		System.out.println(Arrays.toString(newScore));
 		*/
 		
-		// (복사할 배열명, 복사할 배열 시작위치, 복사한 배열명, 복사한 배열 시작위치, 복사한 배열 길이)
+		// (복사할 배열명, 복사할 배열 시작위치, 복사한 배열명, 복사한 배열 시작위치, 복사한 배열 길이(몇개를 넣어서 복사?))
 		System.arraycopy(oldScore, 0, newScore, 0, oldScore.length);
 		System.out.println(Arrays.toString(newScore));
 		

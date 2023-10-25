@@ -31,3 +31,20 @@ public class Array_Ex08 {
 		System.out.println(copy);
 	}
 }
+
+
+/* 반복문 하나로 합치기
+ 
+    char[] oldArr = new char[num.length()];
+    char[] copy = new char[oldArr.length];
+    
+    for(int i = 0; i < oldArr.length; i++) {
+		oldArr[i] = num.charAt(i);
+			
+		if(i < 8)
+			copy[i] = oldArr[i];
+		else
+			copy[i] = '*';
+	} 
+	
+ */

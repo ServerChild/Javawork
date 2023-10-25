@@ -14,24 +14,26 @@ public class Array_Ex06 {
 			System.out.print("정수 : ");
 			int num = sc.nextInt();
 			
+			int iArr[] = new int[num];
+			
 			// 입력한 정수가 홀수가 아니거나 3미만 -> "다시 입력하세요" 출력 후 다시 입력받음
-			if(num % 2 == 0 || num < 3) {
+			if(num % 2 == 1 && num >= 3) {
+				int count = 1;
+				
+				for(int i = 0; i < num; i++) {
+					// 배열 처음부터 중간 : 1 ~ 입력받은 자연수(1씩 증가해서 오름차순)
+					if(i < num / 2)
+						iArr[i] = count++;
+					// 배열 중간부터 끝 : 입력받은 자연수 ~ 1(1씩 감소해서 내림차순)
+					else
+						iArr[i] = count--;
+				}
+			}
+			else {
 				System.out.println("다시 입력하세요");
 				continue;
 			}
 			
-			// 입력받은 홀수(3 이상의 홀수인 경우)를 기준으로 배열 생성함
-			int iArr[] = new int[num];
-			int count = 1;
-			
-			for(int i = 0; i < num; i++) {
-				// 배열 처음부터 중간 : 1 ~ 입력받은 자연수(1씩 증가해서 오름차순)
-				if(i < num / 2)
-					iArr[i] = count++;
-				// 배열 중간부터 끝 : 입력받은 자연수 ~ 1(1씩 감소해서 내림차순)
-				else
-					iArr[i] = count--;
-			}
 			// 출력
 			System.out.println(Arrays.toString(iArr));
 			break;
@@ -44,7 +46,7 @@ public class Array_Ex06 {
   	System.out.print("정수 : ");
 	int num = sc.nextInt();
 			
-	if(num % 2 == 1 || num > 3) {
+	if(num % 2 == 1 && num > 3) {
 		int iArr[] = new int[num];
 		int count = 1;
 			
