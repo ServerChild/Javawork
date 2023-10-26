@@ -56,5 +56,6 @@ public class CarTest {
 		
 		System.out.print("친구차가 ");
 		fCar.run();
+		
 	}
 }

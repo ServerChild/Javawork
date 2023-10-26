@@ -1,8 +1,7 @@
-package objCar05;
+package ex02;
 
 public class Car {
 	// 필드
-	// public String company = "현대 자동차"; -> ????????(예시 1)
 	String company = "현대 자동차";
 	String model = "그랜저";
 	String color = "검정";
@@ -52,7 +51,5 @@ public class Car {
 	
 	public void setCompany(String company) {
 		this.company = company;
-	}
-	
-	
+	}	
 }

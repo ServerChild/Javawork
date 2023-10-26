@@ -20,7 +20,9 @@ public class StaticMember {
 	static int sNum = 2;
 	static String sName = "아무개";
 	
-	// 인스턴스 메소드
+	// 인스턴스 메소드(반드시 객체를 생성해야 사용 o)
+	// new 를 사용해 객체를 생성해야 저장공간이 생김
+	// 인스턴스 멤버, 정적 멤베 모두 호출 가능
 	void Me1() {
 		System.out.println("인스턴스 메소드 Me1()");
 	}
@@ -30,7 +32,9 @@ public class StaticMember {
 		return "Me2()";
 	}
 	
-	// 정적 메소드
+	// 정적 메소드(객체를 생성 or 생성하지 않고 사용 o)
+	// 클래스 내부에 저장공간이 생김
+	// 정적 메소드와 필드만 호출가능
 	static void sMe1() {
 		System.out.println("정적 메소드 sMe1()");
 	}
