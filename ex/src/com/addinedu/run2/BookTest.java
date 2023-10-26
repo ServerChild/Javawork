@@ -23,9 +23,12 @@ public class BookTest {
 		System.out.print("저자 입력 : ");
 		bo1.setAuthor(sc.next());
 		
+		System.out.println();
+		
 		// 출력
 		System.out.println("1번째 책 정보 : " + bo1.information());
 		System.out.println("2번째 책 정보 : " + bo2.information());
+		System.out.println();
 
 		
 		// 할인된 가격 출력
