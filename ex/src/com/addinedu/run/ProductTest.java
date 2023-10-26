@@ -1,6 +1,6 @@
-package ex_20231026_2.run;
+package com.addinedu.run;
 
-import ex_20231026_2.model.vo.Product;
+import com.addinedu.model.vo.Product;
 
 public class ProductTest {
 	public static void main(String[] args) {

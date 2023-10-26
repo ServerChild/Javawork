@@ -1,4 +1,4 @@
-package com.addinedu.model.vo.copy;
+package ex_20231026;
 
 public class Product {
 	private String productId; // 제품 Id

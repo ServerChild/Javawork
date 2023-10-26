@@ -1,6 +1,4 @@
-package com.addinedu.run.copy;
-
-import com.addinedu.model.vo.copy.Product;
+package ex_20231026;
 
 public class ProductTest {
 	public static void main(String[] args) {
