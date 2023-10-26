@@ -8,8 +8,7 @@ public class Snack {
 	private int price; //가격
 	
 	// 생성자(비어있음, 모든 변수 다 받음)
-	Snack() {
-	}
+	Snack() { }
 	
 	Snack(String kind, String name, String flavor, int numOf, int price) {
 		this.kind = kind;
@@ -18,7 +17,13 @@ public class Snack {
 		this.numOf = numOf;
 		this.price = price;
 	}
+	
+	// 모든 정보를 보여주는 메소드
+	public String information() {
+		return kind + " " + name + " " + flavor + " " + numOf + " " + price; 
+	}
 
+	// getter(값 얻어올 때), setter(값 넣을 때) 메소드
 	public String getKind() {
 		return kind;
 	}
