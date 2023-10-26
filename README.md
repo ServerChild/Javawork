@@ -29,6 +29,8 @@
 #### 2023.10.26
    - 메소드 오버로딩(Overloading), 생성자 오버로딩(Overloading)
    - 인스턴스 멤버(필드, 메소드), 정적(Static) 멤버(필드, 메소드)
+   - 접근 제어자(Access Modifier)
+   - getter / setter
 
 #### 2023.10.24
    - 배열(Array)(char, String, boolean, double)
