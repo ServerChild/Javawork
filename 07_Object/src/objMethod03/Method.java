@@ -2,21 +2,26 @@ package objMethod03;
 
 public class Method {
 	// 반환형이 없는 메소드
+	// 출력, 저장 안됨
 	void print1() {
 		System.out.println("반환값이 없고 매개변수가 없는 메소드");
 	}
 	
+	// 반환형 : int
+	// 반환형이 있는 메소드는 반드시 return 값이 있어야 함
 	int print2() {
 		System.out.println("반환형이 int형이고 매개변수가 없는 메소드");
 		int result = 1;
 		return result;
 	}
 	
+	// 반환형 : String
 	String print3() {
 		System.out.println("반환형이 문자열이고 매개변수가 없는 메소드");
 		return "반환하는 문자";
 	}
 	
+	// 반환형 : boolean
 	boolean print4() {
 		System.out.println("반환형이 불리언이고 매개변수가 없는 메소드");
 		return true;
