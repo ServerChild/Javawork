@@ -20,7 +20,7 @@ public class Book {
 	
 	// 모든 필드 값 반환하는 메소드
 	public String information() {
-		return title + " / " + author + " / " + price + " / " + publisher;
+		return title + " " + author + " " + price + " " + publisher;
 	}
 	
 	// getter, setter
