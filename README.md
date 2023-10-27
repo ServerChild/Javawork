@@ -43,4 +43,4 @@
 #### 2023.10.27
    - 다중 인수(MultiArgs)
    - 객체 배열(Object Array)
-   - 상속(Inheritance)
+   - 상속(Inheritance) : 오버라이딩, super
