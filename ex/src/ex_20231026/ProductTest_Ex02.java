@@ -1,10 +1,10 @@
 package ex_20231026;
 
-public class ProductTest {
+public class ProductTest_Ex02 {
 	public static void main(String[] args) {
-		Product po1 = new Product("id_1", "우산", "편의점", 4500, 3.3);
-		Product po2 = new Product("id_2", "인형", "백화점", 25000, 3.3);
-		Product po3 = new Product("id_3", "마우스", "전자상가", 15000, 3.3);
+		Product_Ex02 po1 = new Product_Ex02("id_1", "우산", "편의점", 4500, 3.3);
+		Product_Ex02 po2 = new Product_Ex02("id_2", "인형", "백화점", 25000, 3.3);
+		Product_Ex02 po3 = new Product_Ex02("id_3", "마우스", "전자상가", 15000, 3.3);
 		
 		System.out.println("[ 제품 목록 ]");
 		System.out.println(po1.information());

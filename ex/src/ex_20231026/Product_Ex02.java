@@ -1,6 +1,6 @@
 package ex_20231026;
 
-public class Product {
+public class Product_Ex02 {
 	private String productId; // 제품 Id
 	private String productName; // 제품 이름
 	private String productArea; // 제품 판매 장소
@@ -8,9 +8,9 @@ public class Product {
 	private double tax; // 세금
 	
 	// 생성자
-	public Product() { }
+	public Product_Ex02() { }
 	
-	public Product(String productId, String productName, String productArea, int price, double tax) {
+	public Product_Ex02(String productId, String productName, String productArea, int price, double tax) {
 		this.productId = productId;
 		this.productName = productName;
 		this.productArea = productArea;

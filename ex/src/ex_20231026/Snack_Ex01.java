@@ -1,6 +1,6 @@
 package ex_20231026;
 
-public class Snack {
+public class Snack_Ex01 {
 	private String kind; // 종류
 	private String name; // 이름
 	private String flavor; // 맛
@@ -8,9 +8,9 @@ public class Snack {
 	private int price; //가격
 	
 	// 생성자(비어있음, 모든 변수 다 받음)
-	Snack() { }
+	Snack_Ex01() { }
 	
-	Snack(String kind, String name, String flavor, int numOf, int price) {
+	Snack_Ex01(String kind, String name, String flavor, int numOf, int price) {
 		this.kind = kind;
 		this.name = name;
 		this.flavor = flavor;
