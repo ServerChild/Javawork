@@ -44,3 +44,8 @@
    - 다중 인수(MultiArgs)
    - 객체 배열(Object Array)
    - 상속(Inheritance) : 오버라이딩, super
+
+#### 2023.10.30
+   - 싱글톤(Singleton)
+   - static(정적)과 인스턴스(instance) 차이점
+   - final 키워드(변수, 클래스, 메소드)
