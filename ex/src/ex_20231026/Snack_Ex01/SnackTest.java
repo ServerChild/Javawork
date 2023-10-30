@@ -1,12 +1,12 @@
-package ex_20231026;
+package ex_20231026.Snack_Ex01;
 
 import java.util.Scanner;
 
-public class SnackTest_Ex01 {
+public class SnackTest {
 	public static void main(String[] args) {
 		// 객체 생성
-		Snack_Ex01 sn = new Snack_Ex01();
-		Snack_Ex01 sn1 = new Snack_Ex01("비스켓", "새우깡", "매운 새우", 1, 2000);
+		Snack sn = new Snack();
+		Snack sn1 = new Snack("비스켓", "새우깡", "매운 새우", 1, 2000);
 		
 		// 값 입력
 		Scanner sc = new Scanner(System.in);

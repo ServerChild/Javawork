@@ -1,6 +1,6 @@
-package ex_20231026;
+package ex_20231026.Book_Ex03;
 
-public class Book_Ex03 {
+public class Book {
 	// 필드(속성)
 	private String title; // 책제목
 	private int price; // 가격
@@ -8,9 +8,9 @@ public class Book_Ex03 {
 	private String author; // 저자
 	
 	// 생성자
-	public Book_Ex03() { }
+	public Book() { }
 	
-	public Book_Ex03(String title, int price, double discountRate, String author) {
+	public Book(String title, int price, double discountRate, String author) {
 		this.title = title;
 		this.price = price;
 		this.discountRate = discountRate;
