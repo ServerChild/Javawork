@@ -1,7 +1,7 @@
 package ex_20231030.Polymorphism_EX;
 
 public class Game extends Product {
-	Game(int price) {
+	Game() {
 		super(500);
 	}
 	

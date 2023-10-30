@@ -6,7 +6,7 @@ public class Product {
 	int bonusPoint;
 	
 	// 생성자
-	Product() { }
+	// Product() { }
 	
 	Product(int price) {
 		this.price = price;
