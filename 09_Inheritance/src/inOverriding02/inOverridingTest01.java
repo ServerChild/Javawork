@@ -3,6 +3,7 @@ package inOverriding02;
 // 오버라이딩 : 상속에서 자식이 부모의 메소드의 원형은 그대로 하고 실행내용만 다르게 정의 
 // 오버라이딩한 자식의 메소드가 호출됨 
 class F {
+	// 오버라이딩과 같은 메소드
 	void show() {
 		System.out.println("부모 클래스 show()메소드 호출");
 	}
@@ -13,7 +14,8 @@ class F {
 }
 
 class G extends F {
-	// 오버라이딩
+	// 오버라이딩, 자신이 우선순위가 높아 지신에 있는 값을 호출
+	@Override // 오버라이딩 어노테이션
 	void show() {
 		System.out.println("자식 클래스 show()메소드 호출");
 	}
