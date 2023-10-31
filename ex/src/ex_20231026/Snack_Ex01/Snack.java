@@ -1,4 +1,4 @@
-package ex_20231026.Snack_Ex01;
+package ex_20231026.snack_Ex01;
 
 public class Snack {
 	private String kind; // 종류

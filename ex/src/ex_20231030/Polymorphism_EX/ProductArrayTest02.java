@@ -1,4 +1,4 @@
-package ex_20231030.Polymorphism_EX;
+package ex_20231030.polymorphism_EX;
 
 public class ProductArrayTest02 {
 	public static void main(String[] args) {

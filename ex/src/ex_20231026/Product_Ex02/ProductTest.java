@@ -1,4 +1,4 @@
-package ex_20231026.Product_Ex02;
+package ex_20231026.product_Ex02;
 
 public class ProductTest {
 	public static void main(String[] args) {

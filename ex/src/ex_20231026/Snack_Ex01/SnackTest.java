@@ -1,4 +1,4 @@
-package ex_20231026.Snack_Ex01;
+package ex_20231026.snack_Ex01;
 
 import java.util.Scanner;
 

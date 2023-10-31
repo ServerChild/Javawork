@@ -1,4 +1,4 @@
-package ex_20231026.Product_Ex02;
+package ex_20231026.product_Ex02;
 
 public class Product {
 	private String productId; // 제품 Id

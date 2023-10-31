@@ -10,10 +10,16 @@ class Child extends Parent {
 
 public class InstanceOfTest {
 	public static void main(String[] args) {
-		// - instanceof : 좌측의 객체가 우측의 타입으로 만들어졌는지 검사
+		// instanceof : 좌측의 객체가 우측의 타입으로 만들어졌는지 검사
 		// - 결과 : true -> 우측타입으로 객체가 만들어짐(즉, 강제형변환 가능)
 		//  	false -> 우측타입으로 객체가 만들어지지 않음(즉, 강제형변환 불가) 
+		
 		// 강제형변환 오류는 컴파일 시에 뜸(미리 알 수 없음)
+		
+		// 자동형변환(자식타입으로 만들어진 객체를 부모타입으로 형변환)
+		// 강제형변환(부모타입을 자식타입으로 형변환)
+		//	-> 주의점 : 처음 객체를 만들때 자식타입으로 객체가 생성되어야 함
+		//			  처음부터 부모객체로 만들어진 것은 형변환 불가
 		
 		// 예시 1
 		Parent p1 = new Parent();

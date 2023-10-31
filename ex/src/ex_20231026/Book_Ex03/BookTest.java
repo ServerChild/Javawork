@@ -1,4 +1,4 @@
-package ex_20231026.Book_Ex03;
+package ex_20231026.book_Ex03;
 
 import java.util.Scanner;
 
