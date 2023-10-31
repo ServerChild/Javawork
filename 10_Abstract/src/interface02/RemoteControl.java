@@ -11,9 +11,27 @@ public interface RemoteControl {
 	public static final int MAX_VOLUME = 100;
 	int MIN_VOLUME = 0; // [public static final]이 생략
 	
+	
 	// 추상 메소드 : [public abstract] 리턴타입 메소드이름(매개변수, ...);
 	public abstract void turnOn();
 	void turnOff(); // [public abstract]이 생략
-	
 	void setVolume(int volume);
+	
+	
+	// default 메소드 : 실행문을 넣을 수 있음(Jdk 1.8버전부터 추가)
+	// 재정의 하지 않으면 아래 메소드 실행, 재정의하면 재정의한 메소드 호출
+	default void setMute(boolean mute) {
+		System.out.println("나중에 추가된 메소드입니다.");
+		
+		if(mute)
+			System.out.println("무음 완료");
+		else
+			System.out.println("무음 해제");
+	}
+	
+	
+	// static 메소드 : 실행문을 넣을 수 있음(Jdk 1.8버전부터 추가)
+	static void information() {
+		System.out.println("static() 메소드 호출 가능");
+	}
 }

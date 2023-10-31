@@ -78,5 +78,18 @@ public class RemoteTest {
 		rc2.turnOn();
 		rc2.setVolume(30);
 		rc2.turnOff();
+		
+		System.out.println();
+		
+		// default 메소드 출력
+		rc.setMute(true);
+		
+		rc = new Radio();
+		rc.turnOn();
+		rc.setMute(true);
+		rc.turnOff();
+		
+		// static 메소드 출력
+		RemoteControl.information();
 	}
 }
