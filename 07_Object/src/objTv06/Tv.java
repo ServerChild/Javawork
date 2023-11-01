@@ -9,8 +9,8 @@ public class Tv {
 	int ch;
 	boolean on;
 	
-	// 메소드
 	
+	// 메소드
 	// Tv 키거나 끄기
 	void on() {
 		on = !on;

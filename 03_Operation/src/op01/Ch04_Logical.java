@@ -14,9 +14,11 @@ public class Ch04_Logical {
 		int num1 = 10;
 		int num2 = 20;
 		
+		
 		// && : 둘 다 참(true)이여야만 참(true)
 		boolean re1 = num1 > num2 && num1 < num2;
 		System.out.println(re1); // false
+		
 		
 		// || : 하나라도 참(true)면 참(true)
 		boolean re2 = num1 > num2 || num1 < num2;
@@ -24,12 +26,14 @@ public class Ch04_Logical {
 		
 		System.out.println("--------");
 		
+		
 		// !(not) : 참(true)이면 거짓(false), 거짓(false)이면 참(true)
 		boolean b1 = num1 >= num2; 
 		System.out.println(!b1); // false
 		System.out.println(!!b1); // true
 		
 		System.out.println("--------");
+		
 		
 		// A ~ Z : 65 ~ 90, a ~ z : 97 ~ 122
 		char ch1 = 'A';

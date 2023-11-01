@@ -31,6 +31,7 @@ public class BookArrayTest {
 			System.out.println(books[i].information());
 		}
 		
+		
 		// 도서 제목으로 검색
 		System.out.println("검색할 책 제목 : ");
 		String search = sc.nextLine();

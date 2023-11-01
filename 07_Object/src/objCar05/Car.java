@@ -2,16 +2,16 @@ package objCar05;
 
 public class Car {
 	// 필드
-	// public String company = "현대 자동차"; -> ????????(예시 1)
-	String company = "현대 자동차";
+	public String company = "현대 자동차"; // 예시 1
+	// String company = "현대 자동차";
 	String model = "그랜저";
 	String color = "검정";
 	final int MAX_SPEED = 350;
 	int speed; // 0
 	boolean run; // false
 	
-	// 메소드
 	
+	// 메소드
 	// 시동 유무
 	void run() {
 		run = !run;
@@ -45,7 +45,8 @@ public class Car {
 		return this.speed;
 	}
 	
-	// getter, setter 생성 단축키 : Alt + Shift + s
+	
+	// getter, setter 생성 단축키 : Alt + Shift + s (윈도우 기준)
 	public String getCompany() {
 		return company;
 	}

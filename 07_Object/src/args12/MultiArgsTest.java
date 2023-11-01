@@ -8,19 +8,23 @@ public class MultiArgsTest {
 		String str = concatenate("a", "b", "c");
 		System.out.println(str);
 		
+		
 		// 문자열을 이어서 출력하는 메소드 출력
 		String strArr[] = {"홍길동", "아무개", "이순신"};
 		System.out.println(concatenate(strArr));
 		
+		
 		// 문자열과 부호를 연결하는 메소드 출력
 		System.out.println(con2("-", "홍길동", "아무개", "이순신"));
 		System.out.println(con2("/", new String[]{"1", "2", "3"}));
+		
 		
 		// 합계를 구하는 메소드 출력
 		// 합계 : 숫자가 몇 개가 들어올지 모름
 		System.out.println(sum(10, 5, 2, 1));
 		System.out.println(sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
 	}
+	
 	
 	/*	인스턴스 메소드
 	 	String concatenate(String i, String a, String b, String c) {

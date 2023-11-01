@@ -9,6 +9,7 @@ public class Ch02_Double {
 		
 		System.out.println(dou1 + ", " + dou2);
 		
+		
 		/* 나누기(형)
 		 	int / int = int
 		 	double / double = double
@@ -19,6 +20,7 @@ public class Ch02_Double {
 		System.out.println(dou2 / dou1); // double / double = double
 		System.out.println(10 / 3); // int / int = int (몫만)
 		System.out.println(10 / 3.0); // int / double = double
+		
 		
 		// / : 몫 , % : 나머지
 		int num1 = 30;

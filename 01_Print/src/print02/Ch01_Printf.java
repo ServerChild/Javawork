@@ -23,8 +23,10 @@ public class Ch01_Printf {
 		System.out.printf("%b\n", false); // boolean(true or false) 타입
 		System.out.printf("%b\n", 6 >= 3);
 		
+		
 		// 올해는 2023년 10월 이고, 우리나라의 평균키는 164.8 입니다.
 		System.out.printf("올해는 %d년 %d월 이고, 우리나라의 평균키는 %.1f 입니다.\n", 2023, 10, 164.8);
+		
 		
 		// 이 과정의 정원은 '20'명이고, 현재는 '9'명 수강중 입니다. 평균 '23.5'% 달성했습니다.
 		System.out.printf("이 과정의 정원은 '%d'명이고, 현재는 '%d'명 수강중 입니다. 평균 '%.1f'%% 달성했습니다.", 20, 9, 23.5);

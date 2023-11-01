@@ -5,6 +5,7 @@ public class String_type02 {
 		// String 형변환
 		String str1 = "100";
 		
+		
 		// 문자 -> 숫자로 형변환(변수에 숫자만 들어가야한다)
 		int num1 = Integer.parseInt(str1);
 		double dou1 = Double.parseDouble(str1);

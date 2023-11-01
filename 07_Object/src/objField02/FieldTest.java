@@ -21,6 +21,7 @@ public class FieldTest {
 		
 		System.out.println("--------------------");
 		
+		
 		// 예시 2
 		Car car2 = new Car();
 		System.out.println("car2 회사명 : " + car2.company);

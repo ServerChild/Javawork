@@ -7,6 +7,7 @@ public class Method {
 		System.out.println("반환값이 없고 매개변수가 없는 메소드");
 	}
 	
+	
 	// 반환형 : int
 	// 반환형이 있는 메소드는 반드시 return 값이 있어야 함
 	int print2() {
@@ -15,11 +16,13 @@ public class Method {
 		return result;
 	}
 	
+	
 	// 반환형 : String
 	String print3() {
 		System.out.println("반환형이 문자열이고 매개변수가 없는 메소드");
 		return "반환하는 문자";
 	}
+	
 	
 	// 반환형 : boolean
 	boolean print4() {
@@ -27,10 +30,12 @@ public class Method {
 		return true;
 	}
 	
+	
 	// 반환형이 없고 매개변수가 있는 메소드
 	void print5(int x) {
 		System.out.println(x);
 	}
+	
 	
 	// 반환형 있고 매개변수도 있는 메소드
 	int print6(int x) {

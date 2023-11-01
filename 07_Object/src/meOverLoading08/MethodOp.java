@@ -8,6 +8,7 @@ public class MethodOp {
 
 	int j = 10;
 
+	
 	// 더하기
 	int add(int x, int y) {
 		return x + y;
@@ -31,6 +32,7 @@ public class MethodOp {
 		System.out.println(x + " + " + y + " = " + (x + y));
 	}
 
+	
 	// 빼기
 	int sub(int x, int y) {
 		return x - y;
@@ -46,6 +48,7 @@ public class MethodOp {
 		System.out.println(x + " - 10 = " + (x - 10));
 	}
 
+	
 	// 곱하기
 	int mul(int x, int y) {
 		return x * y;
@@ -56,11 +59,13 @@ public class MethodOp {
 		System.out.println(x + " * " + y + " = " + (x * y));
 	}
 
+	
 	// 나누기(몫)
 	double div(int x, int y) {
 		return (double) x / y;
 	}
 
+	
 	// 나누기(나머지)
 	int rdiv(int x, int y) {
 		return x % y;

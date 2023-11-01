@@ -29,6 +29,7 @@ class Final02 {
 	}
 }
 
+
 class Final02Inher extends Final02 {
 	/*
 	  	// 메소드 재정의 불가
@@ -42,6 +43,7 @@ class Final02Inher extends Final02 {
 		return 5;
 	}
 }
+
 
 public class FinalTest {
 	public static void main(String[] args) {

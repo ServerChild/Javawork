@@ -16,6 +16,7 @@ public class String01 {
 		System.out.println(name);
 		System.out.println(name == hobby); // false
 		
+		
 		// 주소 동일여부 물어봄, 주소가 동일함
 		String str1 = "Java";
 		String str2 = "Java";
@@ -23,6 +24,7 @@ public class String01 {
 		
 		String str5 = "홍길동";
 		System.out.println(str5 == name); // true
+		
 		
 		// 객체 생성, 주소가 각각 생성됨
 		String str3 = new String("Java");

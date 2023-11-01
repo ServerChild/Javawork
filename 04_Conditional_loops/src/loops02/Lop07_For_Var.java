@@ -8,6 +8,7 @@ public class Lop07_For_Var {
 		
 		int num3 = 8, num4 = 9, num5 = 20;
 		
+		
 		// for문에 여러개의 변수 사용 o
 		// 주의! 변수가 여러개여도 조건식은 반드시 변수가 하나만 들어가야 함
 		for(int i = 0, j = 20; i <= 10; i++, j--) {
@@ -18,6 +19,7 @@ public class Lop07_For_Var {
 			System.out.println("i = " + i + ", j = " + j + ", z = " + z);
 		}
 		
+		
 		// while(true) 한 것과 동일
 		// 초기식, 조건식, 증감식 없음
 		for(;;) {
@@ -26,6 +28,7 @@ public class Lop07_For_Var {
 			if(num == 15)
 				break;
 		}
+		
 		
 		// 원하는 부분에서 반복문을 빠져나오고 싶을 때, 이름을 붙여서 사용
 		loop : for(int i = 2; i <= 9; i++) {

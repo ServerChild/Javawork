@@ -7,8 +7,10 @@ public class Ch04_Boolean {
 		boolean bool2 = false;
 		System.out.println(bool1);
 		
+		
 		boolean bool3 = 10 < 3;
 		System.out.println(bool3);
+		
 		
 		int num1 = 10;
 		int num2 = 3;

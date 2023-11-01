@@ -20,6 +20,7 @@ public class Ch01_Int {
 		System.out.println(num2);
 		System.out.println(num1); // 30
 		
+		
 		// 연산
 		System.out.println("----------------------");
 		System.out.println("30 + 100 = " + (num1 + num2));

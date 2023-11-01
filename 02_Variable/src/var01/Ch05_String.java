@@ -18,6 +18,7 @@ public class Ch05_String {
 		 	\\ : 역슬래시(\) 출력
 		 	%% : 퍼센트(%) 출력
 		*/
+		
 		System.out.println("강의실 : 3강의실\n강좌명 : 엘라스틱서치");
 		System.out.println("강의실 : 3강의실\t강좌명 : 엘라스틱서치");
 		System.out.println("강의실 : \"3강의실\" \t 강좌명 : \"엘라스틱서치\"");

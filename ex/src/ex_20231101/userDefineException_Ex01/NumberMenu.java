@@ -4,34 +4,32 @@ import java.util.Scanner;
 
 public class NumberMenu {
 	public static void main(String[] args) {
+		// 해당 클래스에 menu() 메소드 호출해 값 출
+		NumberMenu.menu();
 		
 	}
 	
-	public void menu() { }
+	public static void menu() {
+		NumberController nc = new NumberController();
 		
-		
-		/*   설명 : 사용자에게 두 정수를 입력 받아 NumberController의 checkDouble()에 
-			 매개변수로 넘겨주어 반환 값을 출력함
-			 이 때 checkDouble()메소드를 호출하는 부분부터 try~catch를 이용하여 예외 처리
-			 
-			 정수1 : 55
-			 정수2 : 5
-			 55은(는) 5의 배수인가 ? true 
-			 
-			 
-			 Bank bank = new Bank();
-		
-		// 입금
-		bank.deposit(10000);
-		System.out.println("현재 잔액 : " + bank.getBalance() + "원");
-		
-		// 출금
+		// 예외가 발생할 수 있는 경우
 		try {
-			bank.withdraw(9700);
-			System.out.println("현재 잔액 : " + bank.getBalance() + "원");
-		} catch (UserException e) {
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.print("정수1 : ");
+			int num1 = sc.nextInt();
+			
+			System.out.print("정수2 : ");
+			int num2 = sc.nextInt();
+			
+			boolean cd = nc.checkDouble(num1, num2);
+			
+			System.out.println(num1 + "은(는) " + num2 + "의 배수인가 ? " + cd);
+		}
+		
+		// 예외가 발생했을 때 실행 -> 사용자 정의 예외처
+		catch(NumRangeException e) {
 			System.out.println(e.getMessage());
 		}
-		*/
-
+	}
 }

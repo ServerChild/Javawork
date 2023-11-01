@@ -7,6 +7,7 @@ public class Book {
 	private int price;
 	private String publisher;
 	
+	
 	// 생성자
 	public Book() { }
 	
@@ -22,6 +23,7 @@ public class Book {
 	public String information() {
 		return title + " " + author + " " + price + " " + publisher;
 	}
+	
 	
 	// getter, setter
 	public String getTitle() {

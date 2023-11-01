@@ -22,6 +22,7 @@ public class Ch01_Print_Println {
 		System.out.println(10+30); // 연산된 결과로 출력, 숫자는 쌍따옴표 사용 x
 		System.out.println("10+30"); // 문자열로 인식
 		
+		
 		//print : 줄바꿈 하지 않음
 		System.out.print("줄바꿈 안함");
 		System.out.print("강의실 : 3강의실");

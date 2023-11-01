@@ -10,6 +10,7 @@ public class Car {
 	String color;
 	int speed;
 	
+	
 	// 생성자
 	Car(String company, String model, String color) {
 		System.out.println("생성자 호출");
@@ -20,6 +21,7 @@ public class Car {
 		this.color = color;
 	}
 	
+	
 	// 초기화하는 방법 : 명시적 초기화, 초기화 블럭, 생성자 초기화, 기본값
 		// 순서 : 기본값 -> 명시적 초기화 -> 생성자 초기화(객체 생성)
 	// 인스턴스 변수 초기화 블럭(클래스가 올라올 때 초기화됨)
@@ -29,6 +31,7 @@ public class Car {
 		color = "검정";
 		speed = 1;
 	}
+	
 	
 	// 정적 변수 초기화 블럭
 	static String companys;

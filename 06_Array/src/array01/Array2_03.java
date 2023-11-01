@@ -21,6 +21,7 @@ public class Array2_03 {
 		System.out.println("score1[0]의 길이(열길이) : " + score1[0].length); // 5 -> 열길이
 		System.out.println("=================");
 		
+		
 		// 2차원 배열 안에 값 출력
 		for(int i = 0; i < score1.length; i++) {
 			for(int j = 0; j < score1[i].length; j++) {
@@ -29,6 +30,7 @@ public class Array2_03 {
 			System.out.println();
 		}
 		System.out.println("=================");
+		
 		
 		// 값 넣기
 		score1[0][2] = 6;
@@ -44,6 +46,7 @@ public class Array2_03 {
 			System.out.println();
 		}
 		System.out.println("=================");
+		
 		
 		// 열의 길이 다르게 o
 		int iArr4[][] = {{1, 2, 3}, {4, 5}, {6, 7, 8, 9}};

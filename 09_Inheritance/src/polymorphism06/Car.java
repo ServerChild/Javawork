@@ -7,6 +7,7 @@ public class Car {
 	private final int MAX_SPEED = 300;
 	private int speed;
 	
+	
 	// 메소드
 	Car() {
 		this("AAA2023", "white");
@@ -17,6 +18,7 @@ public class Car {
 		this.color = color;
 	}
 
+	
 	// 전원 On, Off
 	void getPower() {
 		power = !power;
@@ -27,6 +29,7 @@ public class Car {
 			System.out.println("차가 멈춥니다.");
 	}
 	
+	
 	// speed Up, Down
 	void speedUp() {
 		speed += 10;
@@ -35,6 +38,7 @@ public class Car {
 	void speedDown() {
 		speed -= 10;
 	}
+	
 	
 	// 정보 출력
 	String information() {

@@ -9,7 +9,7 @@ public class Array_Ex08 {
 		Scanner sc = new Scanner(System.in);
 		
 		// 주민등록번호를 입력받음
-		System.out.println("주민등록번호(- 포함) : ");
+		System.out.print("주민등록번호(- 포함) : ");
 		String num = sc.next();
 		
 		// 주민등록번호가 저장된 배열

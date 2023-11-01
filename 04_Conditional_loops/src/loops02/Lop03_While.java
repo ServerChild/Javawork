@@ -13,6 +13,7 @@ public class Lop03_While {
 		 			}
 		 */
 		// for 문을 while 문으로 고칠 수 있음
+		
 		// 예시 1
 		int flag = 1; // 초기값
 		
@@ -49,6 +50,7 @@ public class Lop03_While {
 		
 		System.out.println("1 ~ " + i1 + " 까지 더한 합 = " + sum1);
 		System.out.println();
+		
 		
 		// break : 반복문(for, while, do-while)을 빠져나온다
 		int count = 0;

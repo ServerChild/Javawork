@@ -11,6 +11,7 @@ class Stin {
 		return inNum + x;
 	}
 	
+	
 	// 정적 멤버 : 객체 생성 없이 사용 o
 	//		-> 클래스가 올라올 때 클래스에 저장공간 마련
 	// 인스턴스 멤버 사용 불가 : 이유는 객체가 만들어졌다는 보장이 없기 때문에
@@ -21,6 +22,7 @@ class Stin {
 		return sNum + 10;
 	}
 }
+
 
 public class Static_InstanceTest {
 	public static void main(String[] args) {

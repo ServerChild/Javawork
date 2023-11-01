@@ -5,6 +5,7 @@ class D {
 	static int sx;
 }
 
+
 // 부모보다 자식이 우선순위가 더 높음
 class E extends D {
 	String x;

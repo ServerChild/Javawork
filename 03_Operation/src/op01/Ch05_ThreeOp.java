@@ -8,13 +8,16 @@ public class Ch05_ThreeOp {
 		int num1 = 10;
 		int num2 = 7;
 		
+		
 		// 문자열
 		String re = num1 > num2 ? "num1의 숫자가 더 크다" : "num1의 숫자가 더 작다";
 		System.out.println(re);
 		
+		
 		// 문자
 		char re1 = num1 > num2 ? '대' : '소';
 		System.out.println(re1);
+		
 		
 		// 숫자
 		int num3 = -8;
@@ -22,6 +25,7 @@ public class Ch05_ThreeOp {
 		System.out.println(re2);
 		
 		System.out.println("--------------------");
+		
 		
 		// 점수 입력받아 결과 출력하기
 		Scanner sc = new Scanner(System.in);
@@ -32,6 +36,7 @@ public class Ch05_ThreeOp {
 		String re3 = score >= 80 ? "합격" : "불합격";
 		
 		System.out.println("결과 : " + re3);
+		
 		
 		// 100 ~ 90 : A, 89 ~ 80 : B, 79 ~ 70 : C, 69 ~ 60 : D, 59 ~ : F
 		String grade = score > 100 ? "입력할 수 있는 점수를 초과했습니다." :

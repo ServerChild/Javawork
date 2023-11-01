@@ -9,11 +9,13 @@ public class Lop01_For {
 		  				 실행문;
 		  		  }
 		 */
+		
 		// 예시 1 : 하나씩 증가
 		for(int i = 1; i <= 100; i++) {
 			System.out.println(i + ". 안녕하세요");
 		}
 		System.out.println();
+		
 		
 		// 예시 2 : 2씩 증가
 		for(int i = 1; i <= 10; i += 2) {
@@ -21,11 +23,13 @@ public class Lop01_For {
 		}
 		System.out.println();
 		
+		
 		// 예시 3 : 하나씩 감소
 		for(int i = 10; i >= 1; i--) {
 			System.out.println(i + ". 하나씩 감소");
 		}
 		System.out.println();
+		
 		
 		// 예시 4 : 1 부터 10 까지 합계 구하기
 		int sum = 0;

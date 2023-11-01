@@ -12,6 +12,7 @@ public class Lop04_Do_While {
 		  			실행문;
 		  		} while(조건식);
 		 */
+		
 		boolean b1 = false;
 		
 		while(b1) { 
@@ -21,6 +22,7 @@ public class Lop04_Do_While {
 		do {
 			System.out.println("do-while 조건식");
 		} while(b1);
+		
 		
 		// 예시 1
 		Scanner sc = new Scanner(System.in);

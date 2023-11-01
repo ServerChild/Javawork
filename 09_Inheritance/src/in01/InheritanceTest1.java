@@ -15,6 +15,7 @@ class C extends B {
 	int c = 3;
 }
 
+
 public class InheritanceTest1 {
 	public static void main(String[] args) {
 		C objC = new C();

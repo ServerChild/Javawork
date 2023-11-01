@@ -8,7 +8,7 @@ public class Lop05_Math {
 		double rand1 = Math.random(); // 랜덤함수 : 실수형(0 ~ 0.9999999999)
 		System.out.println(rand1);
 		
-		System.out.println("====================");
+		System.out.println();
 		
 		double rand2 = Math.random() * 10; // 0 ~ 9.9999999999
 		System.out.println(rand2);
@@ -22,7 +22,7 @@ public class Lop05_Math {
 		int re2Rand2 = (int)rand2 + 1; // 1 ~ 10
 		System.out.println(re2Rand2);
 		
-		System.out.println("====================");
+		System.out.println();
 		
 		// 0 ~ 4까지의 숫자를 얻고자 한다면
 		double rand3 = Math.random() * 5; // 0 ~ 4.9999999999
@@ -34,11 +34,12 @@ public class Lop05_Math {
 		int re2Rand3 = (int)rand3 + 1; // 1 ~ 5
 		System.out.println(re2Rand3);	
 		
-		System.out.println("====================");
+		System.out.println();
 		
 		double rand4 = Math.random() * 100; // 0 ~ 99.9999999999
 		System.out.println(rand4);
 		System.out.println();
+		
 		
 		// 주사위의 숫자 맞추기 게임
 		// 랜덤으로 주사위 숫자 만들기

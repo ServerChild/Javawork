@@ -10,6 +10,7 @@ public class Con02_IfElse {
 		   			 참일 때 실행문; 
 		   		  } else { 거짓일 때 실행문; }
 		 */
+		
 		// 예시 1 : 점수에 따라 합격, 불합격 구분
 		int score = 89;
 		

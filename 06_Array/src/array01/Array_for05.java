@@ -6,6 +6,7 @@ public class Array_for05 {
 	public static void main(String[] args) {
 		// 향상된 for문 : 배열에서만 사용
 		// for(자료형 변수 : 배열) : 배열의 처음부터 끝까지 순서대로 돌때만 사용 가능
+		
 		// 예시 1
 		int num[] = {1, 2, 3, 4, 5};
 		
@@ -14,6 +15,7 @@ public class Array_for05 {
 		}
 		System.out.println();
 		
+		
 		// 예시 2
 		String name[] = {"홍길동", "아무개", "졸려요"};
 		
@@ -21,6 +23,7 @@ public class Array_for05 {
 			System.out.println(str);
 		}
 		System.out.println();
+		
 		
 		// 예시 3
 		String name1[] = new String[3];

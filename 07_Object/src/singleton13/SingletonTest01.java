@@ -28,6 +28,7 @@ class Singleton {
 	}
 }
 
+
 public class SingletonTest01 {
 	public static void main(String[] args) {
 		// Singleton s1 = new Singleton(); -> 불가

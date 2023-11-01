@@ -9,6 +9,7 @@ public class A {
 	String name; // 초기값 : null
 	boolean b1 = true; // 초기값 : false
 	
+	
 	// 메소드 정의
 	public void Method1() {
 		System.out.println("Method1 호출");

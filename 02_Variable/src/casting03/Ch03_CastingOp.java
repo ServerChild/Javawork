@@ -10,6 +10,7 @@ public class Ch03_CastingOp {
 		byte b1 = 10;
 		byte b2 = 20;
 		
+		
 		// 강제 형변환을 해주거나, 변수의 타입을 더 큰 타입으로 바꿔줘야 함
 		byte result = (byte)(b1 + b2);
 		int result1 = b1 + b2;
@@ -21,10 +22,12 @@ public class Ch03_CastingOp {
 		System.out.println(c2); // 문자(char) 'B'
 		System.out.println(c3); // 유니코드(int) 66
 		
+		
 		int in1 = 100;
 		int in2 = 3;
 		int result2 = in1 / in2;
 		System.out.println(result2); // 33(int)
+		
 		
 		int in3 = 100;
 		double d3 = 3;
@@ -32,6 +35,7 @@ public class Ch03_CastingOp {
 		int result4 = (int)(in3 / d3);
 		System.out.println(result3); // 33.333333333333336
 		System.out.println(result4); // 33
+		
 		
 		int in4 = 100;
 		int in5 = 3;

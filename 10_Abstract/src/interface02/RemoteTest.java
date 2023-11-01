@@ -10,7 +10,6 @@ public class RemoteTest {
 		Audio rcAudio = new Audio(); 
 		Tv rcTv = new Tv();
 		
-		
 		// Audio
 		rc = rcAudio; // rc = new Audio(); -> new 키워드를 쓸때마다 새로운 객체가 따로 생성
 		
@@ -19,7 +18,6 @@ public class RemoteTest {
 		rc.turnOff();
 		
 		System.out.println();
-		
 		
 		// Tv
 		rc = new Tv(); // rc = rcTv;
@@ -48,6 +46,7 @@ public class RemoteTest {
 		};
 		
 		System.out.println();
+		
 		
 		// 인터페이스를 익명 객체로 만들 수 있음
 		RemoteControl rc2 = new RemoteControl() {
@@ -81,6 +80,7 @@ public class RemoteTest {
 		
 		System.out.println();
 		
+		
 		// default 메소드 출력
 		rc.setMute(true);
 		
@@ -88,6 +88,7 @@ public class RemoteTest {
 		rc.turnOn();
 		rc.setMute(true);
 		rc.turnOff();
+		
 		
 		// static 메소드 출력
 		RemoteControl.information();

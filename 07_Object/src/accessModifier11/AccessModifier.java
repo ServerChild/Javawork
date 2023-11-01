@@ -10,10 +10,12 @@ public class AccessModifier {
 	// 잔액
 	private int balance;
 	
+	
 	// 입금
 	void deposit(int money) {
 		balance += money;
 	}
+	
 	
 	// 출금
 	void withdraw(int money) {
@@ -23,10 +25,12 @@ public class AccessModifier {
 		else balance -= money;
 	}
 	
+	
 	// getter(변수의 값을 얻어올 때)
 	int getBalance() {
 		return balance;
 	}
+	
 	
 	// setter(변수에 값을 넣을 때)
 	void setBalance(int balance) {

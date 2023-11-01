@@ -12,11 +12,13 @@ public class Con03_Multi_If {
 		 		  	{ 실행문 }
 		 		  else { 실행문 }
 		*/
+		
 		// 사용자로부터 점수를 입력받아 학점 출력
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("점수 입력 : ");
 		int score = sc.nextInt();
+		
 		
 		// 방법 1(최적화)
 		if(score > 100 || score < 0) 
@@ -31,6 +33,7 @@ public class Con03_Multi_If {
 			System.out.println("D 학점"); // 69 ~ 60
 		else
 			System.out.println("F 학점"); // 59 ~ 0
+		
 		
 		// 방법 2
 		if(score > 100 || score < 0) 

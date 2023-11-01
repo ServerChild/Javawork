@@ -9,6 +9,7 @@ class Parent2 {
 	}
 }
 
+
 class Child2 extends Parent2 {
 	int x = 20;
 	
@@ -27,6 +28,7 @@ class Child2 extends Parent2 {
 		System.out.println("Parent2 클래스의 x = " + super.x);
 	}
 }
+
 
 public class SuperTest02 {
 	public static void main(String[] args) {

@@ -8,6 +8,7 @@ class Child extends Parent {
 	
 }
 
+
 public class InstanceOfTest {
 	public static void main(String[] args) {
 		// instanceof : 좌측의 객체가 우측의 타입으로 만들어졌는지 검사

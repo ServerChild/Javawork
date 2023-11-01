@@ -7,6 +7,7 @@ public class Ch02_Printf_Digit {
 		System.out.printf("%7d\n", 132000);
 		System.out.printf("%7d\n\n", 7800);
 		
+		
 		// 빈자리 0으로 채움
 		System.out.printf("%07d\n", 32000);
 		System.out.printf("%07d\n", 132000);
@@ -19,6 +20,7 @@ public class Ch02_Printf_Digit {
 		System.out.printf("[%s]\n", "abcdefg"); // 왼쪽 정렬(문자 자릿 수만큼만 공간 차지)
 		
 		System.out.println("------------------");
+		
 		
 		// 반올림하여 소수점 몇 번째 자리까지 -> %.(자릿수)f
 		System.out.printf("%10.2f\n", 22.365); // 전체 자릿 수는 대부분 생략

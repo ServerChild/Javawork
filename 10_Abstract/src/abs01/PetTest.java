@@ -6,6 +6,7 @@ public class PetTest {
 		// Pet pet = new Pet("강아지", "흰색");
 		Dog dog = new Dog("검정");
 		
+		
 		// 형변환 가능 -> 자식 객체를 부모 객체로
 		Pet pet = new Dog("갈색");
 		

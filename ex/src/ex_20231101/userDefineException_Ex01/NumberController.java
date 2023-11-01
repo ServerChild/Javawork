@@ -1,17 +1,25 @@
 package ex_20231101.userDefineException_Ex01;
 
 public class NumberController {
+	private int num1;
+	private int num2;
+	private boolean check;
+	
 	public NumberController() { }
 	
 	public boolean checkDouble(int num1, int num2) throws NumRangeException {
-		if
-	}		
-		/*
-		check(num1:int, num2:int) : boolean throws NumRangeException
-		   설명 : 매개변수로 들어온 두 값이 1~100 사이 일 때 num1이 num2의 배수면 true,  
-			 배수가 아니라면 false 반환
-			 1~100사이가 아니라면 NumRangeException발생, 에러 메시지는 출력 값 참고
-		*/
+		// 입력받은 두 정수 중에 하나라도 1 ~ 100 사이의 정수가 아닐 때 예외처리 
+		if(num1 < 1 || num1 > 100 || num2 < 1 || num2 > 100) {
+			throw new NumRangeException("1 ~ 100 사이값만 입력할 수 있음");
+		}
 		
-
+		// num1이 num2의 배수(나눴을 때 나머지 0)
+		 else if(num1 % num2 == 0) {
+			return check = true;
+		}
+		
+		// 배수가 아니라면
+		return check = false;
+	}
+	
 }

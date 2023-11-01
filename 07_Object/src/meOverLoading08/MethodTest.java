@@ -15,6 +15,7 @@ public class MethodTest {
 		op.add(89.56, 67);
 		op.add(50, 68.8);
 		
+		
 		// 빼기
 		System.out.println("20 - 10 = " + op.sub(20, 10));
 		
@@ -22,14 +23,17 @@ public class MethodTest {
 		op.sub(30, 20.1);
 		op.sub(100);
 		
+		
 		// 곱하기
 		System.out.println("3 * 7 = " + op.mul(3, 7));
 		
 		// 오버로딩 - 곱하기
 		op.mul(1.5, 2);
 		
+		
 		// 나누기(몫)
 		System.out.printf("100 / 21 = " + "%.2f\n", op.div(100, 21));
+		
 		
 		// 나누기(나머지)
 		System.out.println("100 % 33 = " + op.rdiv(100, 33));
