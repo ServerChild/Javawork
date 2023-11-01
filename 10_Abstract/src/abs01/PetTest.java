@@ -8,5 +8,7 @@ public class PetTest {
 		
 		// 형변환 가능 -> 자식 객체를 부모 객체로
 		Pet pet = new Dog("갈색");
+		
+		dog.sound();
 	}
 }
