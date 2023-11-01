@@ -58,3 +58,8 @@
    - 익명 객체
    - default 메소드, static 메소드
    - 예외처리(예외 클래스)
+
+#### 2023.11.01
+   - 예외처리(예외 클래스)
+   - try-catch 문, try-catch-finally 문, 다중 catch
+   - throw 키워드, throws 키워드, 사용자 정의 예외
