@@ -63,3 +63,7 @@
    - 예외처리(예외 클래스)
    - try-catch 문, try-catch-finally 문, 다중 catch
    - throw 키워드, throws 키워드, 사용자 정의 예외
+
+#### 2023.11.02
+   - java.lang 패키지 : Object 클래스(equals, hashcode, tostring, clone, system
+   - String 클래스의 메소드
