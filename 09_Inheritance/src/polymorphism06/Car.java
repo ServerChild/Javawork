@@ -1,6 +1,7 @@
 package polymorphism06;
 
 public class Car {
+	// 필드
 	private boolean power;
 	private String model;
 	private String color;

@@ -40,7 +40,7 @@ public class PolymorphismTest01 {
 		
 		// 예시 2
 		C c1 = new C();
-		a1 = c1;
+		a1 = c1; // C클래스(자식)를 A클래스(부모)로 형변환
 		System.out.println(a1.a);
 		
 		
