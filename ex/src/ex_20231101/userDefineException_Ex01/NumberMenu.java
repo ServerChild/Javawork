@@ -27,7 +27,7 @@ public class NumberMenu {
 			System.out.println(num1 + "은(는) " + num2 + "의 배수인가 ? " + cd);
 		}
 		
-		// 예외가 발생했을 때 실행 -> 사용자 정의 예외처
+		// 예외가 발생했을 때 실행 -> 사용자 정의 예외처리
 		catch(NumRangeException e) {
 			System.out.println(e.getMessage());
 		}

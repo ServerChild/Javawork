@@ -3,7 +3,6 @@ package ex_20231101.userDefineException_Ex01;
 public class NumberController {
 	private int num1;
 	private int num2;
-	private boolean check;
 	
 	public NumberController() { }
 	
@@ -15,11 +14,11 @@ public class NumberController {
 		
 		// num1이 num2의 배수(나눴을 때 나머지 0)
 		 else if(num1 % num2 == 0) {
-			return check = true;
+			return true;
 		}
 		
 		// 배수가 아니라면
-		return check = false;
+		return false;
 	}
 	
 }
