@@ -1,8 +1,8 @@
-package system02;
+package string03;
 
 import java.util.Arrays;
 
-public class String02 {
+public class String01 {
 	public static void main(String[] args) {
 		byte[] bytes = {72, 101, 108, 108, 111, 32, 74, 97, 118, 97};
 		
