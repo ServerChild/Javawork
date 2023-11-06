@@ -34,13 +34,16 @@ public class HashMap04 {
 		mapPrint(map);
 	}
 	
-	// Map에는 순서가 없기 때문에(즉, 인덱스 번호가 없음) 특정 값을 꺼내오기 위해 Set에 담은 후 하나씩 꺼내옴
+	// Map에는 순서가 없기 때문에(즉, 인덱스 번호가 없음) 특정 값을 꺼내오기 위해 Set에 담은 후 하나씩 꺼내옴 -> Set, Map에서만 사용
 	static void mapPrint(Map<Integer, String> map) {
+		// 키 값만 가져옴
 		Set<Integer> keyset = map.keySet(); 
 		
+		// 차례대로 넣음
 		Iterator<Integer> keyIterator = keyset.iterator();
 		
 		while(keyIterator.hasNext()) {
+			// next() : 하나씩 꺼내옴
 			int key = keyIterator.next();
 			String value = map.get(key);
 			
