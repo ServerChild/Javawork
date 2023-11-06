@@ -47,7 +47,7 @@ class Member {
 }
 
 
-public class Set02 {
+public class HashSet02 {
 	public static void main(String[] args) {
 		Set<Member> set = new HashSet<Member>();
 		

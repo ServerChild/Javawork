@@ -2,7 +2,7 @@ package setMap02;
 
 import java.util.*;
 
-public class Set03 {
+public class HashSet03 {
 	public static void main(String[] args) {
 		Set<Integer> set = new HashSet<>();
 		

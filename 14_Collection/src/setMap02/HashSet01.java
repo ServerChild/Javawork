@@ -2,7 +2,7 @@ package setMap02;
 
 import java.util.*;
 
-public class Set01 {
+public class HashSet01 {
 	public static void main(String[] args) {
 		// Set(집합) : 특정한 값들을 저장하는 추상자료형
 		// 값들의 순서가 존재하지 않으며 중복되지 않음
