@@ -19,6 +19,7 @@ public class BookMenu {
 			System.out.println("2. 도서 전체 조회");
 			System.out.println("3. 도서 검색 조회");
 			System.out.println("4. 도서 삭제");
+			System.out.println("5. 도서명 오름차순 정렬");
 			System.out.println("9. 종료");
 			System.out.println("");
 			
@@ -41,6 +42,9 @@ public class BookMenu {
 					break;
 				case 4:
 					deleteBook();
+					break;
+				case 5:
+					ascBook();
 					break;
 				case 9:
 					System.out.println("프로그램을 종료합니다.");
@@ -146,5 +150,17 @@ public class BookMenu {
 			System.out.println("삭제할 도서를 찾지 못했습니다.");
 		else
 			System.out.println(deleteBook + "을 성공적으로 삭제하였습니다.");
+	}
+	
+	
+	// 도서 오름차순 정렬
+	public void ascBook() {
+		System.out.println("==== 도서 정렬(오름차순) ====");
+		int asc = bc.ascBook();
+		
+		if(asc == 1) 
+			System.out.println("정렬에 성공하였습니다.");
+		else
+			System.out.println("정렬에 실패하였습니다.");
 	}
 }

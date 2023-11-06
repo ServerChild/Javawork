@@ -2,7 +2,8 @@ package ex_20231103.library;
 
 import java.util.Objects;
 
-public class Book {
+// <Book>을 넣으면 부모에서 자식으로 형변환을 따로하지 않아도 됨
+public class Book implements Comparable<Book> {
 	// 필드(속성) : 도서명, 저자명, 장르, 가격
 	private String title;
 	private String author;
@@ -43,6 +44,26 @@ public class Book {
 			// (category == ((Book)o).category) && (price == ((Book)o).price) -> 이 형식도 가능
 		}
 		return false;
+	}
+	
+	
+	// 책 정렬 기준
+	/* 정렬 기준
+	  - 특정 필드를 기준으로 정수값 반환
+		-> 정수 일 때 : this.price < o.price -> -1
+					 this.price == o.price -> 0
+					 this.price > o.price -> 1
+		-> 문자열 일 때 : 문자가 같을 때 0
+					  문자가 다를 때 음수 또는 양수
+	*/
+	@Override
+	public int compareTo(Book o) {
+		// 숫자일 때
+		// return this.getPrice() - o.getPrice();
+		
+		// 문자열 비교할 때
+		// compareTo()가 오버라이딩 되어있음
+		return this.getTitle().compareTo(o.getTitle());
 	}
 	
 	

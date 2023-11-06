@@ -12,7 +12,7 @@ public class BookController {
 		bookList.add(new Book("혼자 공부하는 자바", "신동권", "학습서", 30000));
 		bookList.add(new Book("쉽게 배우는 알고리즘", "문병로", "학습서", 23000));
 		bookList.add(new Book("혼자 공부하는 파이썬", "신동권", "학습서", 30000));
-		bookList.add(new Book("모름", "모름", "기타", 14000));
+		bookList.add(new Book("대화의 기술", "다니엘", "인문", 17500));
 	}
 	
 	
@@ -49,5 +49,11 @@ public class BookController {
 			}
 		}
 		return bk;
+	}
+	
+	// 책명 오름차순 정렬
+	public int ascBook() {
+		bookList.sort(null);
+		return 1;
 	}
 }
