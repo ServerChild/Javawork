@@ -73,4 +73,4 @@
    - 클래스 다이어그램
 
 #### 2023.11.07
-   - 스트림(Strean) : File 클래스, ByteStream(FileOutputStream, FileInputStream)
+   - 스트림(Strean) : File 클래스, 바이트 기반 스트림(FileOutputStream, FileInputStream), 문자 기반 스트림, Buffer
