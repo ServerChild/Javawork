@@ -16,6 +16,7 @@ public class CharStream03 {
 		fileRead();
 	}
 	
+	
 	// 파일 저장 메소드
 	public static void fileSave() {
 		FileWriter fw = null;
@@ -36,9 +37,13 @@ public class CharStream03 {
 			char[] arrStr = {'김', '홍', '이'};
 			fw.write(arrStr);
 			
-		} catch (IOException e) {
+		} 
+		
+		catch (IOException e) {
 			e.printStackTrace();
-		} finally { // finally 안에 넣으면 무조건 실행
+		} 
+		
+		finally { // finally 안에 넣으면 무조건 실행
 			try {
 				fw.close();
 			} catch (IOException e) {
@@ -46,6 +51,7 @@ public class CharStream03 {
 			}
 		}
 	}
+	
 	
 	// 파일 읽기 메소드
 	public static void fileRead() {
@@ -62,7 +68,9 @@ public class CharStream03 {
 				System.out.print((char)value);
 			}
 			
-		} catch (IOException e) {
+		} 
+		
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

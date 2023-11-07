@@ -26,6 +26,7 @@ public class ByteStream02 {
 		fileRead();
 	}
 	
+	
 	// 파일 저장(출력) 메소드 
 	static void fileSave() {
 		// FileOutputStream : 파일과 직접적으로 연결하여 1바이트 단위로 출력하는 스트림
@@ -51,7 +52,9 @@ public class ByteStream02 {
 			byte[] bArr = {97, 99, 100};
 			fout.write(bArr);
 			
-		} catch (IOException e) {
+		} 
+		
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 		
@@ -106,7 +109,9 @@ public class ByteStream02 {
 				System.out.println((char)result);
 			}
 			
-		} catch (IOException e) {
+		} 
+		
+		catch (IOException e) {
 			e.printStackTrace();
 		}
 		
