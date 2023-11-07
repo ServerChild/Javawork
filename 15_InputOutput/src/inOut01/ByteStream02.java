@@ -12,8 +12,17 @@ public class ByteStream02 {
 			 - xxxInputStream : xxx 매체로부터 데이터를 입력받는 통로(외부매체로부터 데이터를 읽어옴)
 			 - xxxOutputStream : xxx 매체로부터 데이터를 출력하는 통로
 		*/
-		// fileSave();
 		
+		/*
+		    - write(int b) : 1 byte 출력
+				+ 매개 변수로 주어지는 int(4 byte)에서 1byte만 출력 스트림으로 보냄
+  			- write(byte[] b) : 배열 b의 모든 바이트 출력(모두 출력)
+  			- write(byte[] b, int off, int len) : 주어진 배열 b[off]부터 len개까지의 바이트 출력(범위 출력)
+  			- flush() : 잔류하는 모든 바이트를 비움
+  			- close() : 출력 스트림 닫음
+		 */
+		
+		// fileSave();
 		fileRead();
 	}
 	
