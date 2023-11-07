@@ -34,7 +34,7 @@ public class Buffer04 {
 			bw.write("안녕\n");
 			bw.write("곧 즐거운 점심시간이야\n");
 			bw.newLine(); // BufferedWriter에 있는 메소드 : 줄바꿈
-			bw.write("배고파");
+			bw.write("배불러");
 			
 		} 
 		
